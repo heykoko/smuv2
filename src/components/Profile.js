@@ -49,7 +49,7 @@ class Profile extends Component {
         <div className= "chats">
             <h1>Profile</h1>
             {this.state.loggedIn === false && (
-          <a href="http://localhost:8888"> Login to Spotify </a>
+          <a href="https://stormy-refuge-00514.herokuapp.com/"> Login to Spotify </a>
         )}
         <div>
           Top Artists:
